@@ -42,6 +42,7 @@ const buildRedditString = () =>
 const newsSources = {
   HackerNews: () => "https://hnrss.org/frontpage",
   CNN: () => "http://rss.cnn.com/rss/cnn_topstories.rss",
+  Axios: () => "https://api.axios.com/feed/",
   Reddit: buildRedditString
 };
 
